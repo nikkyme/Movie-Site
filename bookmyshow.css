@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  font-family: 'Raleway',sans-serif;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+p {
+  margin-top: 20px;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand
+{
+  background-color: #D8346B;
+}
+.navbar-default
+{
+  background-color: #D91D5C ;
+  border-color: #444;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s; 
+
+}
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #D91D5C ;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.navbar a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 85  px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+.header
+{
+  background-color: #312F2F ;
+  background-image: url("");
+  background-attachment: fixed;
+  background-position: 10% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+
+}
+
+
+.header-overlay
+{
+  background-color: rgba(31, 31, 31, 0.60);
+}
+
+
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited,
+{
+  color: #D91D5C;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 500px;
+  background: transparent;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+
+
+
+
+#carouselExampleIndicators
+{
+  background-image: url(bb1.webp);
+}
+.corousel
+{
+  background-image: url(bb1.webp);
+  background-image: url();
+  background-attachment: fixed;
+  background-position: 5% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+
+}
+
+
+.artist
+{
+  background-image: url();
+  background-attachment: fixed;
+  background-position: 5% 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+}
+
+.artist-detail
+{
+  background-color: rgba(31, 31, 31, .75);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.carousel-indicators
+{
+  bottom: -16px;
+}
+
+.carousel-inner .carousel-item img
+{
+  border: 2px solid: #129CF3;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+
+
+
+
+.section-title p
+{
+  font-size: 26px;
+
+}
+.contact-us-form .form-control
+{
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding:6px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  background-color: transparent;
+  border: 1px solid #aeaeae;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  opacity: .8;
+  outline: 0px !important;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s; 
+  
+}
+
+#comment
+{
+  height: 118px;
+  resize: none;
+}
+
+.submit-btn,
+.submit-btn:active.
+.submit-btn:focus,
+.submit-btn:visited
+{
+  background-color: transparent;
+  border: 1px solid #129FC3;
+  border-radius: 4px;
+  width: 100%;
+  height:50px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #129FC3;
+  outline: 0px !important;
+  
+}
+ .submit-btn:hover
+ {
+  background: 
+ }
+
+
+
+
+
+
+
